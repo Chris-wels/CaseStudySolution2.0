@@ -1,0 +1,19 @@
+﻿<Window x:Class="CaseStudySolution.Views.ShowCustomerForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CaseStudySolution.Views"
+        mc:Ignorable="d"
+        Title="ShowCustomerForm" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="31*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Name="ShowCustomerButton" FontSize="20" Content="Show" HorizontalAlignment="Left" Margin="360,53,0,0" VerticalAlignment="Top" Height="34" Width="74" Click="ShowCustomerButton_Click"/>
+        <Button Name="BackButton" FontSize="20" Content="Back" HorizontalAlignment="Left" Margin="159,53,0,0" VerticalAlignment="Top" Height="34" Width="74" Click="BackButton_Click"/>
+        <DataGrid Name="CustomerDataGrid" Margin="39,109,22,28" />
+
+    </Grid>
+</Window>
